@@ -26,7 +26,7 @@ function handleSubmit(event) {
         password: data.get('password'),
     }
 
-    const url = "http://localhost:4000/user"
+    const url = "https://apiuserdata.onrender.com/user"
     axios.post(url, userToAdd)
     alert("User Added!");
 };
