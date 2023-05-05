@@ -31,7 +31,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
     },
 }));
 
-const url = 'http://localhost:4000/show';
+const url = 'https://apiuserdata.onrender.com/show';
 
 let rows= []
 function FetchD(){
